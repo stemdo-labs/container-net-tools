@@ -44,7 +44,7 @@ jobs:
         uses: docker/metadata-action@v5
         with:
           images: |
-            ${{ github.repository_owner }}/${{ env.IMAGE_NAME }}
+            # ${{ github.repository_owner }}/${{ env.IMAGE_NAME }}
             ghcr.io/${{ github.repository_owner }}/${{ env.IMAGE_NAME }}
           # manually handle the 'latest' tag
           flavor: |
