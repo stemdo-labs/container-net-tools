@@ -2,7 +2,7 @@ name: CD
 
 on:
   push:
-    branches: [main]
+    branches: [stemdo]
   schedule:
     - cron: "43 1 * * SUN" # every Sunday at 1:43 AM UTC
   workflow_dispatch:
