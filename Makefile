@@ -1,4 +1,4 @@
-NAME := network-tools
+NAME := conatainer-network-tools
 ARM_NAME := network-tools-arm
 
 TAG := dev
