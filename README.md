@@ -1,8 +1,8 @@
 # Docker Network Tools
 
 [![cd](https://github.com/stemdo-labs/container-net-tools/actions/workflows/cd.yml/badge.svg)](https://github.com/stemdo-labs/container-net-tools/actions/workflows/cd.yml)
-# [![docker pulls](https://img.shields.io/docker/pulls/stemdo-labs/container-network-tools?label=docker%20pulls)](https://hub.docker.com/r/stemdo-labs/container-network-tools)
-# [![image size](https://img.shields.io/docker/image-size/stemdo-labs/container-network-tools/latest?label=image%20size)](https://hub.docker.com/r/stemdo-labs/container-network-tools/tags)
+# [![docker pulls](https://img.shields.io/docker/pulls/stemdo-labs/container-net-tools?label=docker%20pulls)](https://img.shields.io/docker/pulls/stemdo-labs/container-net-tools?label=docker%20pulls)
+# [![image size](https://img.shields.io/docker/image-size/stemdo-labs/container-net-tools/latest?label=image%20size)](https://hub.docker.com/r/stemdo-labs/container-network-tools/tags)
 
 > A Docker image with various network tools pre-installed.
 
