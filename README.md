@@ -4,6 +4,8 @@
 # [![docker pulls](https://github.com/orgs/stemdo-labs/packages/container/package/container-network-tools?label=docker%20pulls)](https://img.shields.io/docker/pulls/stemdo-labs/container-net-tools?label=docker%20pulls)
 # [![image size](https://img.shields.io/docker/image-size/stemdo-labs/container-net-tools/latest?label=image%20size)](https://github.com/stemdo-labs/container-net-tools/pkgs/container/container-network-tools/207744308?tag=latest)
 
+![downloads](https://img.shields.io/badge/downloads-13k%2Fmonth-brightgreen)
+
 > A Docker image with various network tools pre-installed.
 
 ## Usage
