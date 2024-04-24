@@ -8,7 +8,7 @@ on:
   workflow_dispatch:
 
 env:
-  IMAGE_NAME: container-network-tools
+  IMAGE_NAME: net-tools
 
 jobs:
   publish:
@@ -52,6 +52,8 @@ jobs:
           tags: |
             type=raw,value=latest
           labels: |
+            org.opencontainers.image.maintainer="stemdo-labs <https://stemdo.io>"
+            org.opencontainers.image.description="A Docker image with various network tools pre-installed."
             org.opencontainers.image.licenses=MIT
 
       - name: Set up QEMU
@@ -64,10 +66,12 @@ jobs:
         uses: docker/build-push-action@v5
         with:
           context: .
-          platforms: linux/amd64,linux/arm64
+          platforms: linux/amd64
+          #,linux/arm64
           push: true
           tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}
+          provenance: false
 
   prune:
     needs: publish

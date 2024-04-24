@@ -2,8 +2,7 @@ ARG ALPINE_TAG=latest
 FROM alpine:${ALPINE_TAG}
 
 LABEL maintainer="stemdo-labs <https://stemdo.io>" \
-    description="A Docker image with various network tools pre-installed."
-LABEL org.opencontainers.image.description "A Docker image with various network tools pre-installed."
+      description="A Docker image with various network tools pre-installed."
 
 RUN apk -U upgrade \
     && apk add --no-cache \
