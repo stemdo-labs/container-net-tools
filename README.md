@@ -1,6 +1,7 @@
 # Docker Network Tools
 
 [![cd](https://github.com/stemdo-labs/container-net-tools/actions/workflows/cd.yml/badge.svg)](https://github.com/stemdo-labs/container-net-tools/actions/workflows/cd.yml)
+[![Github All Releases](https://img.shields.io/github/downloads/stemdo-labs/container-net-tools/total.svg)]()
 # [![docker pulls](https://github.com/orgs/stemdo-labs/packages/container/package/container-network-tools?label=docker%20pulls)](https://img.shields.io/docker/pulls/stemdo-labs/container-net-tools?label=docker%20pulls)
 # [![image size](https://img.shields.io/docker/image-size/stemdo-labs/container-net-tools/latest?label=image%20size)](https://github.com/stemdo-labs/container-net-tools/pkgs/container/container-network-tools/207744308?tag=latest)
 
