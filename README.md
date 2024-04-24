@@ -1,8 +1,8 @@
 # Docker Network Tools
 
-[![cd](https://github.com/stemdo-labs/container-network-tools/actions/workflows/cd.yml/badge.svg)](https://github.com/stemdo-labs/container-network-tools/actions/workflows/cd.yml)
-[![docker pulls](https://img.shields.io/docker/pulls/stemdo-labs/container-network-tools?label=docker%20pulls)](https://hub.docker.com/r/stemdo-labs/container-network-tools)
-[![image size](https://img.shields.io/docker/image-size/stemdo-labs/container-network-tools/latest?label=image%20size)](https://hub.docker.com/r/stemdo-labs/container-network-tools/tags)
+[![cd](https://github.com/stemdo-labs/container-net-tools/actions/workflows/cd.yml/badge.svg)](https://github.com/stemdo-labs/container-net-tools/actions/workflows/cd.yml)
+# [![docker pulls](https://img.shields.io/docker/pulls/stemdo-labs/container-network-tools?label=docker%20pulls)](https://hub.docker.com/r/stemdo-labs/container-network-tools)
+# [![image size](https://img.shields.io/docker/image-size/stemdo-labs/container-network-tools/latest?label=image%20size)](https://hub.docker.com/r/stemdo-labs/container-network-tools/tags)
 
 > A Docker image with various network tools pre-installed.
 
@@ -11,23 +11,23 @@
 To launch a Bash session in your terminal:
 
 ```bash
-docker run --rm -it stemdo-labs/container-network-tools
+docker run --rm -it stemdo-labs/container-net-tools
 ```
 
 To launch a Bash session in your terminal on arm64:
 
 ```bash
-docker run --rm -it --platform linux/arm64 stemdo-labs/container-network-tools
+docker run --rm -it --platform linux/arm64 stemdo-labs/container-net-tools
 ```
 
 To run a command directly and exit when finished (nmap in this case):
 
 ```bash
-docker run --rm -it stemdo-labs/container-network-tools nmap -v 10.0.10.0/24
+docker run --rm -it stemdo-labs/container-net-tools nmap -v 10.0.10.0/24
 ```
 
-> **NOTE:** To pull from [GitHub Container Registry], instead of [Docker Hub](https://hub.docker.com/r/stemdo-labs/container-network-tools),
-> replace **stemdo-labs/container-network-tools** with **_ghcr.io/stemdo-labs/container-network-tools_**.
+> **NOTE:** To pull from [GitHub Container Registry], instead of [Docker Hub](https://hub.docker.com/r/stemdo-labs/container-net-tools),
+> replace **stemdo-labs/container-network-tools** with **_ghcr.io/stemdo-labs/container-net-tools_**.
 
 ## Included Tools
 
@@ -196,8 +196,8 @@ docker run --rm -it stemdo-labs/container-network-tools nmap -v 10.0.10.0/24
 
 ## License
 
-[MIT License](https://github.com/stemdo-labs/container--network-tools/blob/main/LICENSE.txt)
+[MIT License](https://github.com/stemdo-labs/container-net-tools/blob/main/LICENSE.txt)
 
-[github container registry]: https://github.com/users/stemdo-labs/packages/container/package/container-network-tools
+[github container registry]: https://github.com/users/stemdo-labs/packages/container/package/container-net-tools
 
 [Forked from]: https://github.com/jonlabelle/docker-network-tools
